@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, "Helvetica Neue", sans-serif;
+    background: #f1f5f8;
+}
+.header {
+    text-align: center;
+    background-color: yellow;
+    padding-top: 30px;
+    height: 120px;
+    min-width: full;
+    font-size: 30px;
+}
+
+.footer {
+    text-align: center;
+    background-color: yellow;
+    padding-top: 30px;
+    height: 80px;
+    min-width: full;
+}
+
+.studentlist {
+    width: 90vw;
+    max-width: 1170px;
+    margin: 5rem auto;
+    display: grid;
+    gap: 2rem;
+}
+img {
+    height: 250px;
+    width: 200px;
+    border-radius: 2rem;
+}
+
+@media  screen and (min-width: 768px) {
+    .studentlist {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.student {
+    background: #fff;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+}
+
+.student h4 {
+    margin-top: 0.5rem;
+    letter-spacing: 5px;
+}
+
+.btnEdit{
+    color: red;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.btnDelete{
+    color: red;
+    margin-left: 20px;
+}
+
+.enterName {
+    margin-top: 20px;
+}
